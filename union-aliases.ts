@@ -1,9 +1,12 @@
-//  Union Type & literal types
+//  Union Type & literal types & type alias
+
+type Combinable=number | string; //Combinable쓸 수 있음
+type ConversionDescripter="as-number" | "as-text";
 
 function combine(
-    input1:number|string,
-    input2:number|string,
-    resultConversion:"as-number" | "as-text"
+    input1:Combinable,
+    input2:Combinable,
+    resultConversion:ConversionDescripter
     ){
     let result; // 어떤 타입이든 들어감
     if(typeof input1==="number" && typeof input2==="number" || resultConversion==="as-number"){

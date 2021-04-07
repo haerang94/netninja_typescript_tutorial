@@ -1,4 +1,4 @@
-//  Union Type & literal types
+//  Union Type & literal types & type alias
 function combine(input1, input2, resultConversion) {
     var result; // 어떤 타입이든 들어감
     if (typeof input1 === "number" && typeof input2 === "number" || resultConversion === "as-number") {
