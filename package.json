@@ -1,0 +1,24 @@
+{
+  "name": "netninja_typescript",
+  "version": "1.0.0",
+  "description": "![학습 목차](./static/academind.png)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haerang94/netninja_typescript_tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haerang94/netninja_typescript_tutorial/issues"
+  },
+  "homepage": "https://github.com/haerang94/netninja_typescript_tutorial#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
